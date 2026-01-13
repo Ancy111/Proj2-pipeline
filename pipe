@@ -2,6 +2,13 @@ pipeline{
   agent any
 
   stages{
+    stage("Checkout"){
+      steps{
+        echo "Building project is going on"
+        bat "echo Build completed successfully"
+      }
+  }
+  stage
   
   }
 }
